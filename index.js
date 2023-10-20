@@ -31,6 +31,8 @@ app.get('/bio', (req, res) => {
     <p>I am a software engineer at Google.</p>
   `);
 });
+const contactUrl = '/contact';
+const bioUrl = '/bio';
 
 // Start the server on the dynamic port
 app.listen(port, () => {
