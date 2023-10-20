@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 
 // Create a simple home page
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('index.html');
 });
 
 // Start the server on the dynamic port
